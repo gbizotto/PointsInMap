@@ -8,7 +8,10 @@ import java.util.regex.Pattern;
 /**
  * Created by Gabriela on 23/09/2016.
  */
-public class ValidationUtil {
+public final class ValidationUtil {
+
+    private ValidationUtil() {
+    }
 
     /**
      * Validate a credit card number using the Luhn Algorithm.

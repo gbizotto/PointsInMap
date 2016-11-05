@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="jitensha_api_base_url">http://192.168.1.6:8080</string>
+    <string name="jitensha_api_base_url"></string>
     <string name="jitensha_api_auth" translatable="false">/api/v1/auth/</string>
     <string name="jitensha_api_register" translatable="false">/api/v1/register/</string>
     <string name="jitensha_api_places" translatable="false">/api/v1/places</string>

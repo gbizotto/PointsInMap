@@ -5,11 +5,10 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.net.Uri;
 import android.os.AsyncTask;
-import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
+import android.support.v4.app.FragmentActivity;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
-import android.widget.Toast;
 
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
@@ -69,7 +68,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         @Override
         protected Boolean doInBackground(Void... params) {
 
-            StringBuffer uri = new StringBuffer()
+            StringBuilder uri = new StringBuilder()
                     .append(mContext.getString(R.string.jitensha_api_base_url))
                     .append(mContext.getString(R.string.jitensha_api_places));
 
