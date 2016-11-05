@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Saitama</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">Password must have between 6 and 32 characters.</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email completions."</string>
+    <string name="error_no_internet_connection">You are not connected to the internet. Please try again after connecting.</string>
+    <string name="error_attempt_in_progress">There is a login attempt in progress. Please wait.</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="owner_name">Owner\'s name</string>
+    <string name="credit_card_number">Credit card number</string>
+    <string name="expiration_date">Expiration date (MM/YY)</string>
+    <string name="credit_card_security_code">Security code</string>
+    <string name="rent">Rent</string>
+    <string name="error_invalid_credit_card">Invalid credit card number.</string>
+    <string name="error_rent">It wasn\'t possible to process rent. Please, try again or come back later.</string>
+    <string name="error_expiration_date">Expiration date must be in the MM/YY format</string>
+    <string name="rent_a_bike">Rent a bike</string>
+    <string name="bicycle_rental_places">Bicycle rental places</string>
+</resources>
